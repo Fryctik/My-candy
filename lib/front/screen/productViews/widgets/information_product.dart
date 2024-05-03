@@ -19,7 +19,7 @@ class InformationProduct extends StatelessWidget {
         children: [
           SizedBox(
             width: double.infinity,
-            height: 200,
+            height: 300,
             child: Image.asset('assets/images/splash.jpg', fit: BoxFit.fill,)
           ),
           Container(
@@ -32,8 +32,9 @@ class InformationProduct extends StatelessWidget {
                   'Леденец радужный на палочке', 
                   style: TextStyle(
                     color: Colors.white, 
-                    fontSize: 15, 
-                    fontWeight: FontWeight.bold
+                    fontSize: 20, 
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Roboto',
                   ),
                 ),
                 Row(
@@ -53,7 +54,8 @@ class InformationProduct extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 17, 
                             fontWeight: FontWeight.w600, 
-                            color: Colors.white
+                            color: Colors.white,
+                            fontFamily: 'Roboto',
                           ),
                         ),
                         Text(
@@ -61,7 +63,8 @@ class InformationProduct extends StatelessWidget {
                           ' Станет отличным подарком для ребенка, но сможет порадовать и взрослых.',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 15
+                            fontSize: 15,
+                            fontFamily: 'Roboto',
                           ),
                         ),
                       ],
@@ -80,7 +83,8 @@ class InformationProduct extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Roboto',
               ),
             ),
           )

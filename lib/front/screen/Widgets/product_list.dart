@@ -1,8 +1,7 @@
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:my_candy/front/routes/router.dart';
-import 'package:my_candy/front/screen/productViews/product_screen.dart';
+import 'package:my_candy/front/routes/router.dart'; 
 
 class ProductList extends StatefulWidget {
   const ProductList({super.key});
@@ -38,7 +37,7 @@ class _ProductListState extends State<ProductList> {
           },
           child: AnimatedContainer(
             width: MediaQuery.of(context).size.width / 2 - 10,
-            height: 270,
+            height: 300,
             padding: const EdgeInsets.all(3),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(7), 
@@ -52,7 +51,7 @@ class _ProductListState extends State<ProductList> {
                   children: [
                     SizedBox(
                       width: double.infinity,
-                      height: 120,
+                      height: 150,
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(7),
                         child: Image.asset('assets/images/splash.jpg', fit: BoxFit.fill),

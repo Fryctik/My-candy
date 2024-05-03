@@ -52,6 +52,7 @@ class _CategoriesListState extends State<CategoriesList> {
                     style: ButtonStyle(
                       backgroundColor: tapListControilerColor[index] ? MaterialStateProperty.all(const Color.fromARGB(255, 118, 33, 64)) : MaterialStateProperty.all(Colors.white),
                     ), 
+                    
                     child: Text(
                       categories[index], 
                       style: TextStyle(

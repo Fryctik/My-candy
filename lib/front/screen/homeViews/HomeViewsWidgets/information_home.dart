@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:my_candy/front/screen/homeViews/HomeViewsWidgets/slider_action.dart';
 
 class InformationHomePage extends StatelessWidget {

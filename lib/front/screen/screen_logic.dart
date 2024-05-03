@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:my_candy/front/routes/router.dart';
-import 'package:my_candy/front/screen/Widgets/navbar_candy.dart';
+import 'package:my_candy/front/screen/widgets/navbar_candy.dart';
 
 @RoutePage()
 class ScreenLogic extends StatefulWidget {

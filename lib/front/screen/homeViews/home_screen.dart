@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:my_candy/front/screen/Widgets/appvar_candy.dart';
+import 'package:my_candy/front/screen/widgets/appvar_candy.dart';
 import 'package:my_candy/front/screen/homeViews/HomeViewsWidgets/information_home.dart';
-import 'package:my_candy/front/screen/Widgets/product_list.dart';
+import 'package:my_candy/front/screen/widgets/product_list.dart';
 
 @RoutePage()
 class HomeScreen extends StatefulWidget {
